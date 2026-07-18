@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Heroku userbot session & secrets (никогда не коммитить!)
+*.session
+*.session-journal
+config.ini
+api_keys.json
+.env
+secrets/
+
+# Логи и временные
+*.log
+logs/
+tmp/
+.cache/
